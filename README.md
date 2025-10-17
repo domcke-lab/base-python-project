@@ -14,7 +14,7 @@ After creating your fork of the repo, open VSCode and use the GUI in the Source 
 ---
 Alternatively, download the repository's code only as a single .zip file. This will disconnect the code from any of the git history:
 
-![alt text](images/github-forking-2.png)
+![alt text](images/github-download-zip.png)
 
 ## Setup
 
