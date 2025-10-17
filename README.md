@@ -1,6 +1,6 @@
 # Base Python Project Template
 
-This repository serves as a good starting point for a python project. It represents uses a standard directory structure and has an example Jupyter notebook, script, python module, and tests to get your project going fast. It is highly recommended to use VSCode as your editor so some instructions below refer to it.
+This repository serves as a good starting point for a python project. It uses a standard directory structure and has an example Jupyter notebook, script, python module, and tests to get your project going fast. It is highly recommended to use VSCode as your editor so some instructions below refer to it.
 
 ## Make the repository your own
 On this repo's GitHub page, click the `Fork` button:
