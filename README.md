@@ -11,7 +11,7 @@ Select the owner of the new repository, give it a name and description, copy jus
 
 ![alt text](images/github-forking-2.png)
 
-After creating your fork of the repo, open VSCode and use the GUI in the Source Control tab to clone you repo to your local machine.
+After creating your fork of the repo, open VSCode and use the GUI in the Source Control tab to clone your repo to your local machine.
 
 ---
 Alternatively, download the repository's code only as a single .zip file. This will disconnect the code from any of the git history:
@@ -56,7 +56,7 @@ With one exception, you only need to do the following steps one time during init
 
 You can also do these all in one line as >`python -m venv .venv; .venv\Scripts\activate; pip install -e .; pip install -e ".[dev]"; nbstripout --install` and go grab a coffee.
 
-The one exception to the one-time environment setup is that >`source .venv/bin/activate` should be run in *each new terminal* in which you run any commands or code related to the project. A common source of confusion is trying to `pip install some-package` in a terminal which has not first had the project's virtual environment activated. In this case it will either fail or install the package into your global python environment which you project will not be able to see.
+The one exception to the one-time environment setup is that >`source .venv/bin/activate` should be run in *each new terminal* in which you run any commands or code related to the project. A common source of confusion is trying to `pip install some-package` in a terminal which has not first had the project's virtual environment activated. In this case it will either fail or install the package into your global python environment which your project will not be able to see.
 
 ### Testing
 Make sure everything is set up correctly by running the test suite with:
@@ -66,7 +66,7 @@ pytest
 You should see all green and '3 passed'. If you see red or error messages, something is not set up correctly. Don't be afraid to just delete the whole project directory and start over fresh.
 
 ### Commit your updated project to git
-Now that your project is all set up, you should commit it to git with >`git add .; git commit -m 'first commit` or use GUI in VSCode source control tab.
+Now that your project is all set up, you should commit it to git with >`git add .; git commit -m 'first commit'` or use GUI in VSCode source control tab.
 
 ## General Development Best Practices
 - Use branches when you try new ideas so you can go back if something breaks (>`git checkout -b NAME-FOR-YOUR-BRANCH`).
