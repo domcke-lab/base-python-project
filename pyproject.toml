@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myPackage"
+version = "0.1.0"
+requires-python = ">=3.12"
+authors = [
+    { name = "YOUR NAME", email = "you@example.com" },
+    { name = "John Hunt", email = "jjdhunt@gmail.com" },
+]
+dependencies = [
+    "python-dotenv",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "ipykernel",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipywidgets",
+    "nbstripout",
+    "pytest",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
