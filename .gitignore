@@ -6,7 +6,8 @@
 Thumbs.db
 
 # Directories
-data/
+data/*
+!data/.gitkeep
 
 # Python project artifacts
 __pycache__
