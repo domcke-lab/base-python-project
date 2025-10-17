@@ -1,6 +1,8 @@
 # Base Python Project Template
 
-## Get the code
+This repository serves as a good starting point for a python project. It represents uses a standard directory structure and has an example Jupyter notebook, script, python module, and tests to get your project going fast. It is highly recommended to use VSCode as your editor so some instructions below refer to it.
+
+## Make the repository your own
 On this repo's GitHub page, click the `Fork` button:
 
 ![alt text](images/github-forking-1.png)
@@ -78,7 +80,7 @@ Now that your project is all set up, you should commit it to git with >`git add 
 - `tests/` stores unit tests; add new tests as your project grows.
 - `data/` contains raw or processed datasets and is ignored by Git.
 - `notebooks/` is for exploratory notebooks; `nbstripout` removes notebook outputs, keeping them clean and small in the repository.
-- `scripts/` is for repeatable analyses. Typically ideation and iteration happens in a notebook and as things become more finalized it is moved to a script.
+- `scripts/` is for repeatable, stable analyses. Typically, ideation and iteration happens in a notebook and as things become more finalized, code is moved to a script.
 
 ## Environment Variables
 You may find yourself using APIs or other services that need private keys and passwords. These should **never** be written in your code itself as they will become public if they are committed to the repository. Instead you should store them in a .env file that is ignored by git and access them from there.
