@@ -3,18 +3,18 @@
 ## Get the code
 On this repo's GitHub page, click the `Fork` button:
 
-![alt text](images\github-forking-image-1.png)
+![alt text](images/github-forking-1.png)
 
 Select the owner of the new repository, give it a name and description, copy just the main branch, and click the `Create Fork` button:
 
-![alt text](images\github-forking-image-2.png)
+![alt text](images/github-forking-2.png)
 
 After creating your fork of the repo, open VSCode and use the GUI in the Source Control tab to clone you repo to your local machine.
 
 ---
 Alternatively, download the repository's code only as a single .zip file. This will disconnect the code from any of the git history:
 
-![alt text](images\github-forking-2.png)
+![alt text](images/github-forking-2.png)
 
 ## Setup
 
