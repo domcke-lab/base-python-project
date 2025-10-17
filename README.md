@@ -2,6 +2,9 @@
 
 ## Setup
 
+### Create a git repositiory
+If you are starting from a copy of this project, rather than a fork of the repository, you should create a git repository with `git init` or use GUI in vscode source control tab. You can tell if your project has a git repository set up by looking for a directory called `.git` (may be hidden) in the top level directory of your project.
+
 ### Rename things in this starter project
 1. This starter project uses the package name `myPackage`. You should update this name everywhere it occurs to a custom name for your project/package. Rename it in `pyproject.toml`, `tests\test_example.py`, `scripts\script.py`, and `notebooks\sandbox.ipynb` (or just use vscode's project-wide search and replace tab). Your new name should only have alphabetical characters and no spaces.
 1. Rename the directory `src/myPackage/` to the same name as above.
@@ -43,9 +46,7 @@ pytest
 You should see all green and '3 passed'. If you see red or error messages, something is not set up correctly. Don't be afraid to just delete the whole project directory and start over fresh.
 
 ### Commit your updated project to git
-Now that your project is all set up, you should commit it to git.
-1.  If you are starting from a copy of this project, rather than a git fork, you should turn it into a git repository with `git init` or use GUI in vscode source control tab.
-1. Commit the initial state of the project (`git add .; git commit -m 'first commit` or use GUI in vscode source control tab.)
+Now that your project is all set up, you should commit it to git with `git add .; git commit -m 'first commit` or use GUI in vscode source control tab.
 
 ## General Development Best Practices
 - Use branches when you try new ideas so you can go back if something breaks (`git checkout -b NAME-FOR-YOUR-BRANCH`).
